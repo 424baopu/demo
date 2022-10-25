@@ -62,6 +62,7 @@
         <finalName>${project.artifactId}</finalName>
         <filters>
             <filter>src/main/env/${environment}/application_server.properties</filter>
+            <filter>src/main/env/${environment}/application_mybatis.properties</filter>
         </filters>
         <resources>
             <resource>

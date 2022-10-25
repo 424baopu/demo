@@ -10,3 +10,8 @@ server:
     session:
       timeout: @application_server.session_timeout@
   env: @application_server.env@
+
+#spring配置文件
+spring:
+  profiles:
+    include: mybatis

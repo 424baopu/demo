@@ -1,0 +1,7 @@
+#数据库连接配置
+spring:
+  datasource:
+    url: @application_mybatis.datasource_url@
+    username: @application_mybatis.datasource_user_name@
+    password: @application_mybatis.datasource_password@
+    driver-class-name: @application_mybatis.datasource_driver_class_name@

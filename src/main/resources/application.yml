@@ -1,0 +1,12 @@
+server:
+  port: @application_server.port@
+  tomcat:
+    max-http-post-size: -1
+    max-threads: 1000
+    max-connections: 15000
+    accept-count: 100
+  servlet:
+    context-path: @application_server.context_path@
+    session:
+      timeout: @application_server.session_timeout@
+  env: @application_server.env@
